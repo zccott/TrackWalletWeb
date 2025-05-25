@@ -1,0 +1,11 @@
+section{
+    width: 200px;
+    height: 100dvh;
+    flex: 1;
+    background: red;
+    @media screen and (max-width: 700px) {
+        max-height: 30px;
+        width: 100dvw;
+    }
+}
+
